@@ -11,8 +11,18 @@ import { RoutingRedirectGuard } from './core/routing-redirect.guard';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule],
-  providers: [],
+  imports: [
+    AppRoutingModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    BrowserModule,
+    CoreModule,
+    CoreModule,
+    NgMaterialModule,
+    PagesModule
+  ],
+  // entryComponents: [RoutingRedirectGuard],
+  providers: [RoutingRedirectGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

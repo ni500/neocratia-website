@@ -44,10 +44,7 @@
 // Used for reflect-metadata in JIT. If you use AOT (and only Angular decorators), you can remove.
 import 'core-js/es7/reflect';
 
-/**
- * Web Animations `@angular/platform-browser/animations`
- * Only required if AnimationBuilder is used within the application and using IE/Edge or Safari.
- * Standard animation support in Angular DOES NOT require any polyfills (as of Angular 6.0).
+/** Only required if AnimationBuilder is used within the application and using IE/Edge or Safari.
  **/
 // import 'web-animations-js';  // Run `npm install --save web-animations-js`.
 
