@@ -1,0 +1,34 @@
+<mat-toolbar class="nav-bar">
+  <button mat-icon-button color="primary" (click)="onClick()">
+    <mat-icon class="mat-18">menu</mat-icon>
+  </button>
+  <a mat-button class="docs-button" href="/#home" aria-label="neocratia">
+    <img class="navbar-logo" src="../../../assets/img/logo.png" alt="neocratia" />
+  </a>
+  <a
+    mat-button
+    class="docs-navbar-hide-small docs-button"
+    *ngFor="let nav of navItems"
+    href="/{{ nav.link }}"
+    >{{ nav.name }}</a
+  >
+  <div class="flex-spacer"></div>
+  <a
+    mat-icon-button
+    class="docs-button docs-navbar-show-small"
+    href="https://blog.neocratia.org/"
+    target="_blank"
+    aria-label="Medium Blog"
+  >
+    <img class="icon-logos" src="../../../assets/img/medium_icon.png" alt="neocratia" />
+  </a>
+  <a
+    mat-icon-button
+    class="docs-button docs-navbar-show-small"
+    href="https://github.com/neocratia"
+    target="_blank"
+    aria-label="GitHub Repository"
+  >
+    <img class="icon-logos" src="../../../assets/img/GitHub-Mark-32px.png" alt="neocratia" />
+  </a>
+</mat-toolbar>
