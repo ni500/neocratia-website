@@ -57,7 +57,7 @@ export class TeamComponent implements OnInit {
       name: 'Nicolás Contreras',
       twitter: '@ni500',
       twitterUrl: 'https://twitter.com/ni500',
-      description: `Project leadr of Neocratia. Nicolás is a software engineer and geek. Activist and entrepreneur with
+      description: `Our project leader. Nicolás is a software engineer and geek. Activist and entrepreneur with
       background in industrial and Electronic Engenier, founder of companies as Vaki and PappCorn, a startup incubator that
       had launch products as https://vaki.co, https://guardican.com, http://trepsi.co, http://treeoflifeapp.com, https://bhiveconsulting.co
       and many others. Product Manager at Vaki, CEO at PappCorn and Product Manager, main developer and mantainer of Neocratium platform on
